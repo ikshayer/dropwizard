@@ -4,6 +4,7 @@ name: Java CI
 # yamllint disable-line rule:truthy
 on:
   push: #run always
+  workflow_dispatch:
   pull_request:
     branches:
       - master
